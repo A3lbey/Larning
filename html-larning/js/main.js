@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $(".all").click(function(){
+        $(".pic1,.pic2,.pic3,.pic4,.pic5").toggle();
+    });
+	
+	$(".Toriner").click(function(){
+		$(".pic1,.pic2,.pic4,.pic5").fadeOut();
+	});
+});
+$(document).ready(function(){
+	$(".office").click(function(){
+		$(".pic5").hide();
+	});
+});
+$(document).ready(function(){
+	$(".animate_button").click(function(){
+		$(".animate").animate({
+			width:'+=5px',
+			height:'+=5px',
+		});
+	});
+});
+$(document).ready(function(){
+	$(".animate_button").click(function(){
+		$(".animate2").css("z-index","1");
+	});
+});
